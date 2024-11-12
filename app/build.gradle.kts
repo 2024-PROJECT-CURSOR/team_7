@@ -1,11 +1,6 @@
 plugins {
     id("com.android.application")
 }
-allprojects {
-    repositories {
-        maven { url 'https://jitpack.io' }
-    }
-}
 
 
 android {
@@ -38,7 +33,7 @@ android {
 }
 
 dependencies {
-
+    implementation ("com.github.prolificinteractive:material-calendarview:2.0.3")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
