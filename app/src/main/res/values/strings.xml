@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DIYCALENDAR_2024</string>
+    <string name="identify">ID</string>
+    <string name="password">PASSWORD</string>
+    <string name="log_in">로그인</string>
+    <string name="sign_up">회원가입</string>
 </resources>
