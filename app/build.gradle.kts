@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.diycalendar_2024"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.diycalendar_2024"
@@ -27,13 +27,17 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
+    
+
 }
 
+
+
 dependencies {
-    implementation ("com.github.prolificinteractive:material-calendarview:2.0.3")
+    implementation ("com.github.prolificinteractive:material-calendarview:2.0.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
