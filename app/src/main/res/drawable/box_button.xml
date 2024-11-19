@@ -8,7 +8,7 @@
     </item>
     <item android:state_enabled="true">
         <shape>
-            <solid android:color="#BBE698"/> <!-- 기본 색상 -->
+            <solid android:color="@color/deep_green"/> <!-- 기본 색상 -->
             <corners android:radius="8dp"/>
         </shape>
     </item>
